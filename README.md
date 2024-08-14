@@ -3,7 +3,7 @@
 
 ## 安装
 
-`composer install ledc/intra-city`
+`composer require ledc/intra-city`
 
 ## 使用说明
 
