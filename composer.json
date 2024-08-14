@@ -1,0 +1,26 @@
+{
+    "name": "ledc/intra-city",
+    "description": "微信同城配送",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ledc\\IntraCity\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "david",
+            "email": "367013672@qq.com",
+            "homepage": "https://www.iyuu.cn",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "phpseclib/phpseclib": "^3.0",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "ext-curl": "*"
+    }
+}
