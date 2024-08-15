@@ -50,9 +50,35 @@ $api->createStore();
 $api->queryStore();
 
 //更新门店
-$api->queryStore();
-```
+$api->updateStore();
 
+//门店运费充值
+$api->storeCharge();
+
+//门店运费退款
+$api->storeRefund();
+
+//门店运费流水查询
+$api->queryFlow();
+
+//门店余额查询
+$api->balanceQuery();
+
+//查询运费
+$api->previewAddOrder();
+
+//创建配送单
+$api->addOrder();
+
+//查询配送单
+$api->queryOrder();
+
+//取消配送单
+$api->cancelOrder();
+
+//模拟回调接口
+$api->mockNotify();
+```
 
 
 ## 二次开发
