@@ -227,8 +227,8 @@ class ExpressApi extends Wechat
             throw new InvalidArgumentException('查询配送单，缺少入口参数');
         }
 
-        $params['wx_cancel_reason_id'] = $cancel_reason_id;
-        $params['wx_cancel_reason'] = $cancel_reason;
+        $params['cancel_reason_id'] = $cancel_reason_id;
+        $params['cancel_reason'] = $cancel_reason;
 
         //TODO... 返回响应对象
         return $this->request($this->builderUrl('/cancelorder'), $this->filter($params));
