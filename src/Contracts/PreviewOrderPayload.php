@@ -61,9 +61,6 @@ class PreviewOrderPayload implements JsonSerializable
                 $items[$key] = $value->jsonSerialize();
             }
         }
-        if (empty($this->use_sandbox)) {
-            unset($items["use_sandbox"]);
-        }
         return $items;
     }
 }
