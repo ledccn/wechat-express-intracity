@@ -26,14 +26,14 @@ class PreviewOrderPayload implements JsonSerializable
     public string $user_phone;
     /**
      * 收件用户位置经度
-     * @var float
+     * @var string
      */
-    public float $user_lng;
+    public string $user_lng;
     /**
      * 收件用户位置维度
-     * @var float
+     * @var string
      */
-    public float $user_lat;
+    public string $user_lat;
     /**
      * 收件用户详细地市
      * @var string
