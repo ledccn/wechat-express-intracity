@@ -27,14 +27,14 @@ class OrderPayload implements JsonSerializable
     public string $user_openid;
     /**
      * 收货用户地址经度
-     * @var float
+     * @var string
      */
-    public float $user_lng;
+    public string $user_lng;
     /**
      * 收货用户地址维度
-     * @var float
+     * @var string
      */
-    public float $user_lat;
+    public string $user_lat;
     /**
      * 收件人姓名
      * @var string
